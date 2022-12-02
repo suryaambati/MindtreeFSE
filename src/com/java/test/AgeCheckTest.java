@@ -19,8 +19,7 @@ public class AgeCheckTest {
 	{
 		int a =0;
 		AgeCheck age = new AgeCheck();
-	
-		Exception e = Assertions.assertThrows(Exception.class, ()->age.Validateage(a));
+	    Exception e = Assertions.assertThrows(Exception.class, ()->age.Validateage(a));
 		
 	}
 }
